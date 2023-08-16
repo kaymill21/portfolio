@@ -1,22 +1,22 @@
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { shaq, bwmap, worldmap , kmpic, profile } from '../assets';
 
 const Hero = () => {
   return (
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={bwmap}
+          src={kmpic}
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={worldmap}
+          src={kmpic}
           alt="world map"
           className="w-full h-full sm:hidden block object-cover"
         />
@@ -42,12 +42,13 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+               Kayla 
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}style={{color: "white"}}>
+            I completed an award winning intensive software engineering bootcamp learning full 
+            stack web development, and I am ready
+             to continue growing as a software professional. 
             </p>
           </div>
           <div
@@ -56,6 +57,11 @@ const Hero = () => {
 
           <div></div>
         </div>
+        <img
+            className="kaylaProfilePic"
+            src={profile}
+            alt="shaquille"
+          />
 
         <div
           className="absolute xs:bottom-10 bottom-32 w-full 
@@ -82,13 +88,7 @@ const Hero = () => {
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-          <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
-          />
+          
         </div>
       </section>
     </>

@@ -1,5 +1,7 @@
 import bwmap from './backgrounds/bw-map.jpeg';
+import kmpic from './backgrounds/km-pic.jpeg';
 import nairobi from './backgrounds/nairobi.png';
+import profile from './backgrounds/profile.jpg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
@@ -43,15 +45,22 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+
+import leaderboard from './projects/leaderboard.jpeg';
+import cloths from './projects/cloths.jpeg';
+import furn from './projects/furn.jpeg';
+import gitshub from './projects/gitshub.jpeg';
+import berry from './projects/berry.jpeg';
 
 export {
+  profile,
+  leaderboard,
+  cloths,
+  berry, 
+  gitshub,
+  furn,
   bwmap,
+  kmpic,
   nairobi,
   whiteabstract,
   worldmap,
@@ -86,12 +95,6 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,

@@ -37,12 +37,16 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+  Over the past coule years I have learned essential skills, including Javascript, the React UI framework, Ruby, mySQL and git source control. I have also learned about Object Oriented Programming, REST, and Test Driven Development.
+
+In September of 2022 I started an internship at a startup company. I got the opportunity to work solo and one-on-one designing features built out using Bootstrap as well as custom CSS/HTML to override the Bootstrap CSS.
+
+In November of 2022 I started working for Ideatrek as a freelance Web designer. I work with clients all over the world to communicate with them about what needs fixing for their website (as in, re-designing, fixing coding errors) or building their desired website from scratch using WIX editor X. 
+
+   As an employee I am hard working, and a team player. I am dependable, 
+  determined to succeed and would work diligently to be an asset to your company. I am a 
+fast learner and would be excited to learn whatever technologies are necessary for the job. 
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

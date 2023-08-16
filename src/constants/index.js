@@ -17,12 +17,11 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
   leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  furn,
+  gitshub,
+  cloths,
+  berry,
   coverhunt,
   dcc,
   kelhel,
@@ -57,10 +56,7 @@ const services = [
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  
 ];
 
 const technologies = [
@@ -84,14 +80,14 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
   {
     name: 'Node JS',
     icon: nodejs,
@@ -100,14 +96,14 @@ const technologies = [
     name: 'Rails',
     icon: rubyrails,
   },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
@@ -116,48 +112,31 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    company_name: 'FiNC',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Sep 2022 - Feb 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'UI/UX Designer',
+    company_name: 'Ideatrek',
+    icon: microverse,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Nov 2022 - Current',
   },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+ 
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'The Home Steadt',
     tags: [
       {
         name: 'react',
@@ -172,15 +151,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+     image: cloths,
+    repo: 'https://www.thehomesteadt.com/',
+    
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
+    name: 'Gecko Leather Works',
+    
     tags: [
       {
         name: 'react',
@@ -196,13 +174,11 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://www.geckoleatherworks.com/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Ubuy Furniture',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +193,11 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
+    image: furn,
+    repo: 'https://www.ubuyfurniture.com/' },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Berrycove Farms',
     tags: [
       {
         name: 'nextjs',
@@ -239,16 +212,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: berry,
+    repo: 'https://www.berrycovefarms.com/' ,
   },
+  
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
+    name: 'GitHub',
+   tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
@@ -262,10 +233,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+    image: gitshub,
+    repo: 'https://github.com/kaymill21'},
 ];
 
 export { services, technologies, experiences, projects };
