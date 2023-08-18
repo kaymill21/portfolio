@@ -136,7 +136,7 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'The Home Steadt',
+    name: 'The Home Stead Tee',
     tags: [
       {
         name: 'react',
