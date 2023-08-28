@@ -19,7 +19,7 @@ import {
   graphql,
   leaderboard,
   furn,
-  gitshub,
+  github,
   cloths,
   berry,
   coverhunt,
@@ -218,7 +218,7 @@ const projects = [
   
   {
     id: 'project-5',
-    name: 'GitHub',
+    name: '( Personal Project )',
    tags: [
       {
         name: 'nextjs',
@@ -233,8 +233,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: gitshub,
-    repo: 'https://github.com/kaymill21'},
+    image: github,
+    repo: 'https://travel-78bc3.firebaseapp.com/'},
 ];
 
 export { services, technologies, experiences, projects };
