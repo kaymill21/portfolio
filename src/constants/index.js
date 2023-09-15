@@ -219,7 +219,7 @@ const projects = [
   
   {
     id: 'project-5',
-    name: '( Personal Project Travel )',
+    name: 'Personal Project Travel',
    tags: [
       {
         name: 'nextjs',
@@ -239,7 +239,7 @@ const projects = [
     repo: 'https://travel-78bc3.firebaseapp.com/'},
     {
       id: 'project-6',
-      name: '( Personal Project Weather )',
+      name: 'Personal Project Weather',
      tags: [
         {
           name: 'nextjs',
