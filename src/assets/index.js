@@ -5,7 +5,7 @@ import profile from './backgrounds/profile.jpg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
+
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
@@ -51,12 +51,14 @@ import cloths from './projects/cloths.jpeg';
 import furn from './projects/furn.jpeg';
 import gitshub from './projects/gitshub.jpeg';
 import berry from './projects/berry.jpeg';
+import weather from './projects/weather.jpg';
 
 export {
   profile,
   leaderboard,
   cloths,
   berry, 
+  weather,
   gitshub,
   furn,
   bwmap,
@@ -64,7 +66,6 @@ export {
   nairobi,
   whiteabstract,
   worldmap,
-  logo,
   logotext,
   shaq,
   backend,

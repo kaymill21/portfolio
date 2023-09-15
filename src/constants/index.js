@@ -22,6 +22,7 @@ import {
   github,
   cloths,
   berry,
+  weather,
   coverhunt,
   dcc,
   kelhel,
@@ -218,7 +219,7 @@ const projects = [
   
   {
     id: 'project-5',
-    name: '( Personal Project )',
+    name: '( Personal Project Travel )',
    tags: [
       {
         name: 'nextjs',
@@ -232,9 +233,32 @@ const projects = [
         name: 'css',
         color: 'pink-text-gradient',
       },
+      
     ],
     image: github,
     repo: 'https://travel-78bc3.firebaseapp.com/'},
+    {
+      id: 'project-6',
+      name: '( Personal Project Weather )',
+     tags: [
+        {
+          name: 'nextjs',
+          color: 'blue-text-gradient',
+        },
+        {
+          name: 'supabase',
+          color: 'green-text-gradient',
+        },
+        {
+          name: 'css',
+          color: 'pink-text-gradient',
+        },
+        
+      ],
+      image: weather,
+      repo: 'https://weather-11a1c.firebaseapp.com/'},
+      
+    
 ];
 
 export { services, technologies, experiences, projects };
