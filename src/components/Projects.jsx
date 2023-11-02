@@ -17,7 +17,7 @@ const ProjectCard = ({
   handleClick,
 }) => {
   return (
-    <motion.div
+    <motion.div 
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
@@ -114,7 +114,7 @@ const Projects = () => {
           These projects demonstrate my expertise with practical examples of
           some of my work, including brief descriptions and links live websites. They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          oversee projects. 
         </motion.p>
       </div>
 
@@ -124,7 +124,7 @@ const Projects = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div style={{overflowY: "auto", color: "black"}} className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}

@@ -51,6 +51,7 @@ import cloths from './projects/cloths.jpeg';
 import furn from './projects/furn.jpeg';
 import gitshub from './projects/gitshub.jpeg';
 import berry from './projects/berry.jpeg';
+import fitness from './projects/fitness.jpeg';
 import weather from './projects/weather.jpg';
 
 export {
@@ -58,6 +59,7 @@ export {
   leaderboard,
   cloths,
   berry, 
+  fitness,
   weather,
   gitshub,
   furn,

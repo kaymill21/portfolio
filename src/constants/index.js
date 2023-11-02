@@ -23,6 +23,7 @@ import {
   cloths,
   berry,
   weather,
+  fitness,
   coverhunt,
   dcc,
   kelhel,
@@ -225,6 +226,7 @@ const projects = [
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
+      
       {
         name: 'supabase',
         color: 'green-text-gradient',
@@ -256,7 +258,27 @@ const projects = [
         
       ],
       image: weather,
-      repo: 'https://weather-11a1c.firebaseapp.com/'},
+      repo: 'https://weather-11a1c.firebaseapp.com/'}, 
+
+      { id: 'project-7',
+      name: 'Project Fitness',
+     tags: [
+        {
+          name: 'nextjs',
+          color: 'blue-text-gradient',
+        },
+        {
+          name: 'supabase',
+          color: 'green-text-gradient',
+        },
+        {
+          name: 'css',
+          color: 'pink-text-gradient',
+        },
+        
+      ],
+      image: fitness,
+      repo: 'https://fitness-bfe41.firebaseapp.com/?_gl=1*18026wc*_ga*ODUyOTk1MTgwLjE2OTIyMjIxNzc.*_ga_CW55HF8NVT*MTY5ODk0NTYyNi4xNS4xLjE2OTg5NDU2ODguNjAuMC4w'},
       
     
 ];

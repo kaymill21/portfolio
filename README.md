@@ -27,17 +27,3 @@ npm run dev
 
 This will open up the project on a browser on `http://localhost:5173/`
 
-## Build
-
-- To create a production build:
-
-```
-npm run build
-```
-
-- To preview the site as it will appear once deployed:
-
-```
-npm run preview
-```
-

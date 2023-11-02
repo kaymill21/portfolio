@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-  Over the past coule years I have learned essential skills, including Javascript, the React UI framework, Ruby, mySQL and git source control. I have also learned about Object Oriented Programming, REST, and Test Driven Development.
+  Over the past couple years I have learned essential skills, including Javascript, the React UI framework, HTML, CSS, UX Design, Ruby, mySQL and git source control. I have also learned about Object Oriented Programming, REST, and Test Driven Development.
 
 In September of 2022 I started an internship at a startup company. I got the opportunity to work solo and one-on-one designing features built out using Bootstrap as well as custom CSS/HTML to override the Bootstrap CSS.
 
