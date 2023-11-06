@@ -43,7 +43,7 @@ In September of 2022 I started an internship at a startup company. I got the opp
 
 In November of 2022 I started working for Ideatrek as a freelance Web designer. I work with clients all over the world to communicate with them about what needs fixing for their website (as in, re-designing, fixing coding errors) or building their desired website from scratch using WIX editor X. 
 
-   As an employee I am hard working, and a team player. I am dependable, 
+   As an employee I am hard working, determined to succeed, and a team player. I am dependable, 
   determined to succeed and would work diligently to be an asset to your company. I am a 
 fast learner and would be excited to learn whatever technologies are necessary for the job. 
 
