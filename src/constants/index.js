@@ -24,6 +24,7 @@ import {
   berry,
   weather,
   fitness,
+  hangman,
   coverhunt,
   dcc,
   kelhel,
@@ -280,7 +281,28 @@ const projects = [
       image: fitness,
       repo: 'https://fitness-bfe41.firebaseapp.com/?_gl=1*18026wc*_ga*ODUyOTk1MTgwLjE2OTIyMjIxNzc.*_ga_CW55HF8NVT*MTY5ODk0NTYyNi4xNS4xLjE2OTg5NDU2ODguNjAuMC4w'},
       
-    
+      
+      { id: 'project-8',
+      name: 'Project Hangman',
+     tags: [
+        {
+          name: 'nextjs',
+          color: 'blue-text-gradient',
+        },
+        {
+          name: 'supabase',
+          color: 'green-text-gradient',
+        },
+        {
+          name: 'css',
+          color: 'pink-text-gradient',
+        },
+        
+      ],
+      image: hangman,
+      repo: 'https://hangman-54ee3.firebaseapp.com/?_gl=1*etq2cq*_ga*ODUyOTk1MTgwLjE2OTIyMjIxNzc.*_ga_CW55HF8NVT*MTY5OTI5MjUzNS4xOC4xLjE2OTkyOTQzNzkuNTcuMC4w'},
+      
+      
 ];
 
 export { services, technologies, experiences, projects };

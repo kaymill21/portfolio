@@ -53,6 +53,7 @@ import gitshub from './projects/gitshub.jpeg';
 import berry from './projects/berry.jpeg';
 import fitness from './projects/fitness.jpeg';
 import weather from './projects/weather.jpg';
+import hangman from './projects/hangman.jpeg';
 
 export {
   profile,
@@ -60,6 +61,7 @@ export {
   cloths,
   berry, 
   fitness,
+  hangman, 
   weather,
   gitshub,
   furn,
